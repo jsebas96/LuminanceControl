@@ -22,7 +22,7 @@ mn11= 'Window2'
 
 data=[]
 
-# Cargar constantes de lámparas
+# Cargar constantes de luminarias
 doc = openpyxl.load_workbook('Constantes2.xlsx')
 hoja = doc.get_sheet_by_name('Hoja1')
 kij=np.zeros((9,9))
@@ -188,7 +188,7 @@ for j in range(601): # Tiempo de ejecución
         s11_1=f11.readline()
         f11.close()     
 
-    #Conversión valores sensores lámparas
+    #Conversión valores sensores luminarias
     s[0][0]=float(s1_1)
     s[1][0]=float(s2_1)
     s[2][0]=float(s3_1)
