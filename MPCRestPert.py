@@ -57,7 +57,7 @@ def QPhild(H,f,A_cons,b):
     return eta
 
 ############################################################################################
-# Cargar constantes de lámparas
+# Cargar constantes de luminarias
 doc = openpyxl.load_workbook('Constantes2.xlsx')
 hoja = doc.get_sheet_by_name('Hoja1')
 kij=np.zeros((9,9))
