@@ -11,9 +11,9 @@ Códigos utilizados para el desarrollo de estrategias de control enfocadas al co
 Evaluar el desempeño de diferentes estrategias de control para un sistema de iluminación en un ambiente cerrado, aplicado al laboratoro de robótica de la Universidad de Nariño.
 
 ## Controladores
-+ PI : Proporcional Integral
-+ RD : Dinámicas de Replicadores
-+ MPC: Controlador Predictivo basado en Modelo
++ PI : Proporcional Integral (https://github.com/jsebas96/LuminanceControl/blob/master/PID_Perturbaciones.py)
++ RD : Dinámicas de Replicadores (https://github.com/jsebas96/LuminanceControl/blob/master/Replicador_Perturbaciones.py)
++ MPC: Controlador Predictivo basado en Modelo (https://github.com/jsebas96/LuminanceControl/blob/master/MPCRestPert.py)
 
 ## Elementos Empleados
 + Sensor de iluminancia: TSL2561 (I2C Interface)
