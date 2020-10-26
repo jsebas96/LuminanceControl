@@ -15,6 +15,12 @@ Evaluar el desempeño de diferentes estrategias de control para un sistema de il
 + RD : Dinámicas de Replicadores
 + MPC: Controlador Predictivo basado en Modelo
 
+## Elementos Empleados
++ Sensor de iluminancia: TSL2561 (I2C Interface)
++ Filtrado y envío de Datos: Tarjeta de desarrollo ESP32(Bluetooth)
++ Servidor para almacenamiento y control (envío de señal con radio Z-Wave): PC con SO Raspbian
++ Actuador: Dimmer que traduce la señal para las luminarias (recepción protocolo Z-Wave)
+
 ## Diagrama de Flujo del Sistema
 ![alt text](https://github.com/jsebas96/LuminanceControl/blob/master/diagram.jpeg)
 
