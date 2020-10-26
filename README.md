@@ -26,6 +26,8 @@ Evaluar el desempeño de diferentes estrategias de control para un sistema de il
 
 ## Interfaz gráfica para Estudio de Controladores
 ![alt text](https://github.com/jsebas96/LuminanceControl/blob/master/gui.jpeg)
+(https://github.com/jsebas96/LuminanceControl/blob/master/GUI_Sistema.py)
+
 
 ## Resultado
 El desarrollo de este tipo de aplicaciones proporciona una solución inteligente para el establecimiento de un adecuado nivel de iluminación en ambientes cerrados pero además, gestiona de manera adecuada la energía pues los recursos se administran de mejor manera disminuyendo el consumo eléctrico, incluso con la tećnicas de control más básicas.
